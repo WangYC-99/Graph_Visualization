@@ -20,7 +20,7 @@ c = (
     )
     .set_global_opts(
         legend_opts=opts.LegendOpts(is_show=False),
-        title_opts=opts.TitleOpts(title="Graph-计算社会学2021班级朋友关系(班级分类)"),
+        title_opts=opts.TitleOpts(title="Class Social Network Graph"),
     )
     .render("class.html")
 )
